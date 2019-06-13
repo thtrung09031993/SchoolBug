@@ -1,0 +1,15 @@
+/* ----- LANGUAGE ACTION ----- */
+export const CHOOSE_LANGUAGE = 'CHOOSE_LANGUAGE';
+
+/* ----- LOADING ACTION ----- */
+export const START_LOADING = 'START_LOADING';
+export const FINISH_LOADING = 'FINISH_LOADING';
+
+/* ----- NOTIFICATION ACTION ----- */
+export const SHOW_NOTIFICATION = 'SHOW_NOTIFICATION';
+export const HIDE_NOTIFICATION = 'HIDE_NOTIFICATION';
+
+/* ----- USER ACTION ----- */
+export const SET_USER_PROFILE = 'SET_USER_PROFILE';
+export const SET_CAR = 'SET_CAR';
+export const RESET_USER_STORE = 'RESET_USER_STORE';

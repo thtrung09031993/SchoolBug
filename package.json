@@ -1,0 +1,46 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "customer": "expo start --config ./src/customer/app.json",
+    "customer-android": "expo start --android --config ./src/customer/app.json",
+    "customer-ios": "expo start --ios --config ./src/customer/app.json",
+    "driver": "expo start --config ./src/driver/app.json",
+    "driver-android": "expo start --android --config ./src/driver/app.json",
+    "driver-ios": "expo start --ios --config ./src/driver/app.json",
+    "build-customer-android": "expo build:android --config ./src/customer/app.json",
+    "build-customer-ios": "expo build:ios --config ./src/customer/app.json",
+    "build-driver-android": "expo build:android --config ./src/driver/app.json",
+    "build-driver-ios": "expo build:ios --config ./src/driver/app.json",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "9.0.0",
+    "@mapbox/polyline": "1.0.0",
+    "expo": "32.0.0",
+    "native-base": "2.12.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-datepicker": "1.7.2",
+    "react-native-image-zoom-viewer": "^2.2.25",
+    "react-native-keyboard-aware-scroll-view": "0.8.0",
+    "react-native-modal-datetime-picker": "6.0.0",
+    "react-native-ratings": "^6.3.1",
+    "react-native-signalr": "1.0.6",
+    "react-navigation": "3.0.9",
+    "react-redux": "6.0.0",
+    "redux": "4.0.1",
+    "reselect": "4.0.0",
+    "url": "0.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "5.0.0",
+    "jest-expo": "32.0.0",
+    "reactotron-react-native": "2.1.4",
+    "reactotron-redux": "2.1.3"
+  },
+  "private": true
+}

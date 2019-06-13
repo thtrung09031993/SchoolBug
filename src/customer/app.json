@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Schoolbus",
+    "slug": "schoolbus",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "entryPoint": "./src/customer/index.js",
+    "icon": "./src/assets/images/app-icon.png",
+    "splash": {
+      "image": "./src/assets/images/loading.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./src/assets/images/notification-icon.png",
+      "color": "#77b15a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "fpt.schoolbus.customer",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyA8A1xgTl2QtdcHzzkaMGi_GYAtS6Hv7_8"
+      }
+    },
+    "android": {
+      "package": "fpt.schoolbus.customer",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAVtwYj-yCHqic2BaiPJLqwGfR1uhtGZSs"
+        }
+      }
+    }
+  }
+}
